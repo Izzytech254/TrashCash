@@ -16,6 +16,18 @@ export default function HomePage() {
                 <Zap className="w-4 h-4" />
                 <span>Smart Waste Management</span>
               </div>
+              
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 bg-gradient-to-br from-primary-500 to-primary-600 rounded-xl flex items-center justify-center shadow-lg">
+                  <Trash2 className="w-6 h-6 text-white" />
+                </div>
+                <span className="text-2xl font-bold text-gray-900 dark:text-white">TrashCash</span>
+              </div>
+              
+              <h2 className="text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-primary-400 dark:from-primary-400 dark:to-primary-200 mb-8 leading-tight">
+                "Turning Waste Into Opportunities"
+              </h2>
+              
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white leading-tight mb-6">
                 Get Paid to Keep
                 <span className="text-primary-500"> Cities Clean</span>
